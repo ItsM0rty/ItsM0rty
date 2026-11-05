@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="260" viewBox="0 0 1100 260" role="img" aria-labelledby="title description">
+  <title id="title">Suyash Bhattarai</title>
+  <desc id="description">I build AI products, backends and developer tools. A dark green header with an abstract network of connected nodes.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1714"/>
+      <stop offset="1" stop-color="#16372a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#64d69d" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#64d69d" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.8" fill="#83b59c" opacity="0.14"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1100" height="260" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1100" height="260" fill="url(#background)"/>
+    <rect width="1100" height="260" fill="url(#dots)"/>
+    <ellipse cx="940" cy="140" rx="240" ry="220" fill="url(#glow)"/>
+    <path d="M845 76L930 130L1015 76M845 184L930 130L1015 184M845 76V184M1015 76V184" fill="none" stroke="#70c69c" stroke-width="1.5" stroke-opacity="0.35"/>
+    <path d="M845 76L930 130L1015 184" fill="none" stroke="#87e8b6" stroke-width="2" stroke-opacity="0.85"/>
+    <g fill="#122b20" stroke="#65b58b" stroke-width="1.5">
+      <circle cx="845" cy="76" r="7"/>
+      <circle cx="845" cy="184" r="7"/>
+      <circle cx="1015" cy="76" r="7"/>
+      <circle cx="1015" cy="184" r="7"/>
+    </g>
+    <circle cx="930" cy="130" r="20" fill="#81e1ae" fill-opacity="0.09" stroke="#81e1ae" stroke-opacity="0.25"/>
+    <circle cx="930" cy="130" r="7" fill="#94edbd"/>
+    <rect x="48" y="45" width="5" height="17" rx="2.5" fill="#81e1ae"/>
+    <text x="66" y="58" fill="#a0bfae" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2.2">ITS M0RTY / BUILDING SOFTWARE</text>
+    <text x="46" y="135" fill="#f1f4e9" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="650" letter-spacing="-1.8">Suyash Bhattarai</text>
+    <text x="49" y="180" fill="#b9d0c3" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="21">I build AI products, backends and developer tools.</text>
+    <path d="M49 218H1051" stroke="#73aa8e" stroke-opacity="0.25"/>
+  </g>
+</svg>
